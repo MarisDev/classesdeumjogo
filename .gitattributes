@@ -1,2 +1,28 @@
 # Auto detect text files and perform LF normalization
-* text=auto
+class heroClass {
+    constructor(name, type, attacks) {
+      this.name = name
+      this.type = type
+      this.attacks = attacks
+    }
+  
+    attack() {
+      console.log(`O ${this.type} ${this.name} atacou usando ${this.attacks}.`)
+    }
+  }
+  
+  
+  let mago = new heroClass("Dr. Strange", "Mago", "magia")
+  
+  let guerreiro = new heroClass("Thor", "Guerreiro", "Mijonir")
+  
+  let arqueiro = new heroClass("Gavião", "Arqueiro", "arco e fecha")
+  
+  let monge = new heroClass("Shang-shi", "Monge", "artes marciais")
+  
+  
+  
+  mago.attack()
+  guerreiro.attack()
+  arqueiro.attack()
+  monge.attack()
