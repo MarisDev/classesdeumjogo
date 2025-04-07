@@ -1,4 +1,4 @@
-# Auto detect text files and perform LF normalization
+
 class heroClass {
     constructor(name, type, attacks) {
       this.name = name
